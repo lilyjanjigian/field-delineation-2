@@ -1,0 +1,49 @@
+
+2024-09-05 12:32:48.826060
+Image Size: (256, 256)
+Batch Size: 16
+LR: 0.0001
+Epochs: 500
+Early Stopping Patience: 50
+
+Dataset Size:
+Train: 7901 - Valid: 988 - Test: 988
+
+2024-09-05 13:24:52.107044
+Image Size: (256, 256)
+Batch Size: 16
+LR: 0.0001
+Epochs: 500
+Early Stopping Patience: 50
+
+Dataset Size:
+Train: 7901 - Valid: 988 - Test: 988
+
+Optimizer: Adam
+Loss: BCE Dice Loss
+
+Valid F1 improved from 0.0000 to 0.9745. Saving checkpoint: files/checkpoint.pth
+Epoch: 01 | Epoch Time: 14m 20s
+	Train Loss: 1.7343 - Jaccard: 0.5401 - F1: 0.5401 - Recall: 1.0000 - Precision: 0.5401
+	 Val. Loss: 1.3772 - Jaccard: 0.9745 - F1: 0.9745 - Recall: 1.0000 - Precision: 0.9745
+
+Epoch: 02 | Epoch Time: 18m 59s
+	Train Loss: 1.3199 - Jaccard: 0.9133 - F1: 0.9133 - Recall: 1.0000 - Precision: 0.9133
+	 Val. Loss: 1.2084 - Jaccard: 0.9704 - F1: 0.9704 - Recall: 1.0000 - Precision: 0.9704
+
+Epoch: 03 | Epoch Time: 17m 40s
+	Train Loss: 1.1113 - Jaccard: 0.8488 - F1: 0.8488 - Recall: 1.0000 - Precision: 0.8488
+	 Val. Loss: 1.4237 - Jaccard: 0.8629 - F1: 0.8629 - Recall: 1.0000 - Precision: 0.8629
+
+Epoch: 04 | Epoch Time: 21m 17s
+	Train Loss: 1.0657 - Jaccard: 0.7349 - F1: 0.7349 - Recall: 1.0000 - Precision: 0.7349
+	 Val. Loss: 1.2860 - Jaccard: 0.8387 - F1: 0.8387 - Recall: 1.0000 - Precision: 0.8387
+
+Epoch: 05 | Epoch Time: 13m 50s
+	Train Loss: 1.0588 - Jaccard: 0.6467 - F1: 0.6467 - Recall: 1.0000 - Precision: 0.6467
+	 Val. Loss: 1.0541 - Jaccard: 0.8942 - F1: 0.8942 - Recall: 1.0000 - Precision: 0.8942
+
+Epoch: 06 | Epoch Time: 13m 47s
+	Train Loss: 1.0478 - Jaccard: 0.6387 - F1: 0.6387 - Recall: 1.0000 - Precision: 0.6387
+	 Val. Loss: 1.0751 - Jaccard: 0.6378 - F1: 0.6378 - Recall: 1.0000 - Precision: 0.6378
+
